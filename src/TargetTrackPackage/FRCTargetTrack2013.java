@@ -18,6 +18,8 @@ public class FRCTargetTrack2013 extends WPICameraExtension {
     private IntegerProperty blueMinProperty;
     private IntegerProperty blueMaxProperty;
     
+    public static final String NAME = "Camera Target Analysis";
+    
     public FRCTargetTrack2013() {
         //mutable properties - (when extension is added to SmartDashboard, right click it for properties)
         polygonQuality = new DoubleProperty(this, "Polygon Quality", 30);
